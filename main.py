@@ -1,10 +1,7 @@
 from heart import PaintHeart, PaintHeart2
 from butterfly import PaintButterfly
-from others import *
+from others import Parabola
+from basics import Ellipse
 
-ph = PaintHeart2()
-ph.paint()
-ph = PaintButterfly()
-ph.paint()
-ph = Mouse()
-ph.paint()
+pt = Ellipse()
+pt.paint()
